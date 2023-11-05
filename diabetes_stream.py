@@ -40,12 +40,4 @@ if st.button('Test Prediksi Diabetes'):
         
     st.success(diabetes_diagnosis)
 
-
-
-
-
-
-
-
-
 st.caption('made with ❤️ by Syamsun Noor Fasha (c) 2023')
