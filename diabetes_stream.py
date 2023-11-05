@@ -5,7 +5,7 @@ import streamlit as st
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 #judul web
-st.title('Data Mining Prediksi Diabetes')
+st.title('Mechine Learning Diabetes Detector')
 
 col1, col2 = st.columns(2)
 
@@ -39,3 +39,5 @@ if st.button('Test Prediksi Diabetes'):
         diabetes_diagnosis = "Pasien tidak terkena diabetes"
         
     st.success(diabetes_diagnosis)
+
+st.caption('made with ❤️ by Syamsun Noor Fasha (c) 2023')
